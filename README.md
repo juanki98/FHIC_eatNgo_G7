@@ -1,3 +1,6 @@
+El link per accedir a la pagina principal i començar la navegació és:
+[https://juanki98.github.io/FHIC_eatNgo_G7/](url)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/juanki98/FHIC_eatNgo_G7/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
