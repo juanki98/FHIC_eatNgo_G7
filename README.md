@@ -1,5 +1,5 @@
 El link per accedir a la pagina principal i començar la navegació és:
-[https://juanki98.github.io/FHIC_eatNgo_G7/](url)
+[https://juanki98.github.io/FHIC_eatNgo_G7/](https://juanki98.github.io/FHIC_eatNgo_G7/)
 
 ## Welcome to GitHub Pages
 
