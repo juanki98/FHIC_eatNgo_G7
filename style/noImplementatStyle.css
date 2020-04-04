@@ -1,0 +1,33 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+.titol {
+    float: left;
+    margin-left: 30px;
+    height: 90px;
+}
+.titol h1 {
+    display:inline-block;
+    margin-top: 300px;
+    vertical-align: middle;
+    font-family: Comfortaa;
+    font-size: 100px;
+    padding-right: 80px;
+    margin-left: 100px;
+    color: #EB5757;
+}
+
+.menul1 p{
+    display:inline-block;
+    margin-left: 300px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.menul1 p:hover{
+    text-decoration: underline;
+}
+
+.menul1 a{
+    color:black;
+    text-decoration: none;
+}
+
