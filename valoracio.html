@@ -4,7 +4,7 @@
         <!--Title-->
         <title>Eat n' Go</title>
         <script src="scripts/include.js"></script>
-        <script src="scripts/star_svg_path.js"></script>
+        <script src="scripts/starAnimation.js"></script>
         <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
         <link rel="stylesheet" type="text/css" href="style/valoracioStyle.css">
     </head>
@@ -16,22 +16,22 @@
         <div class="star-valoration">
             <h2>Restaurant</h2>
             <div class="star-row-block" id="stars-restaurant">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
+                <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-restaurant')">
+                <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-restaurant')">
+                <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-restaurant')">
+                <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-restaurant')">
+                <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-restaurant')">
             </div>
         </div>
         
         <div class="star-valoration">
             <h2>Entrega</h2>
-            <div class="star-row-block" id="stars-restaurant">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
-                <img src="images/star_filled.svg">
+            <div class="star-row-block" id="stars-delibery">
+                <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-delibery')">
+                <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-delibery')">
+                <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-delibery')">
+                <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-delibery')">
+                <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-delibery')">
             </div>
         </div>
     </body>
