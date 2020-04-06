@@ -1,6 +1,6 @@
 const starClassName = 'star';
-const filledStarSourcePath = '../images/star_filled.svg';
-const emptyStarSourcePath = '../images/star_empty.svg';
+const filledStarSourcePath = 'images/star_filled.svg';
+const emptyStarSourcePath = 'images/star_empty.svg';
 
 /**
  *  String starRow: id of div that contains stars
