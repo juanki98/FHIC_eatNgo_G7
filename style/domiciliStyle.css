@@ -1,0 +1,182 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+.titol {
+    float: left;
+    margin-left: 30px;
+    height: 90px;
+}
+
+.titol h1 {
+    display:inline-block;
+    margin-top: 150px;
+    vertical-align: middle;
+    font-family: Comfortaa;
+    font-size: 85px;
+    margin-right: 40px;
+    margin-left: 100px;
+    color: #EB5757;
+}
+
+.containerS {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 50px;
+    border-style: double;
+}
+
+.search p1{
+    display:inline-block;
+    color: #9c9c9c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-family: Comfortaa;
+    font-size: 65px;
+}
+
+
+.container1 {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin: 50px;
+    border-style: double;
+}
+
+.establiment1 p1{
+    display:inline-block;
+    color: #EB5757;
+    margin-top: 30px;
+    margin-left: 50px;
+    vertical-align:top;
+    font-family: Comfortaa;
+    font-size: 50px;
+}
+
+.establiment1 img{
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.ubicacio1 img{
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    vertical-align:bottom;
+    display:inline-block;
+}
+
+
+
+.container2 {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin: 50px;
+    border-style: double;
+}
+
+
+.establiment p1{
+    display:inline-block;
+    color: #EB5757;
+    margin-left: 150px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.establiment img{
+
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.container3 {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin: 50px;
+    border-style: double;
+}
+
+
+.establiment p1{
+    display:inline-block;
+    color: #EB5757;
+    margin-left: 150px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.establiment img{
+
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.botoRepetirComanda{
+    display:inline-block;
+}
+
+.botoRepetirComanda p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    display:inline-block;
+    margin-left: 70px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.botoRepetirComanda p:hover{
+    text-decoration: underline;
+}
+
+.botoRepetirComanda p a{
+    color:black;
+    text-decoration: none;
+}
+
+.botoAltresOpcions{
+    display:inline-block;
+}
+
+.botoAltresOpcions p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    display:inline-block;
+    margin-left: 330px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.botoAltresOpcions p:hover{
+    text-decoration: underline;
+}
+
+.botoAltresOpcions p a{
+    color:black;
+    text-decoration: none;
+}
