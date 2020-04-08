@@ -1,18 +1,8 @@
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+
 .titol {
     float: left;
     margin-left: 30px;
     height: 90px;
-}
-.titol h1 {
-    display:inline-block;
-    margin-top: 300px;
-    vertical-align: middle;
-    font-family: Comfortaa;
-    font-size: 100px;
-    padding-right: 80px;
-    margin-left: 100px;
-    color: #EB5757;
 }
 
 .botons{
