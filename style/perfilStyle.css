@@ -1,7 +1,19 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+
 .campsT {
     color: #EB5757;
     display:inline-block;
     
+}
+
+.container {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style: double;
 }
 
 .table1{
@@ -13,6 +25,8 @@
 
 .table1 p{
     margin-right: 40px;
+    color: #EB5757;
+    font-weight: bold;
 
 }
 
@@ -64,7 +78,7 @@
 
 .outer figcaption{
     font-family: Comfortaa;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
