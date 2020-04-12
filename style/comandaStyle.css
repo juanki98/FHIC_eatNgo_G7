@@ -1,0 +1,260 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+.titol {
+    float: left;
+    margin-left: 30px;
+    height: 90px;
+}
+
+.titol h1 {
+    display:inline-block;
+    margin-top: 250px;
+    font-family: Comfortaa;
+    font-size: 150px;
+    margin-left: 110px;
+    color: #EB5757;
+}
+
+.container {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin: 50px;
+    border-style: double;
+}
+
+.establiment p1{
+    display:inline-block;
+    color: #EB5757;
+    margin-left: 150px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.establiment img{
+    
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.establiment p2{
+    display:inline-block;
+    margin-left: 50px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+
+.estat p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 260px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.estat img{
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.estat p2{
+    display:inline-block;
+    margin-left: 60px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.data p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 260px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.data img{    
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.data p2{
+    display:inline-block;
+    margin-left: 40px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.hora p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 260px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.hora img{    
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.hora p2{
+    display:inline-block;
+    margin-left: 45px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.llistat p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 250px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.llistat p2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    display:inline-block;
+    margin-left: 70px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.llistat p2:hover{
+    text-decoration: underline;
+}
+
+.llistat p2 a{
+    color:black;
+    text-decoration: none;
+}
+
+.repartidor p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 190px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.repartidor img{
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.repartidor p2{
+    display:inline-block;
+    margin-left: 40px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.total p1{
+    color: #EB5757;
+    display:inline-block;
+    margin-left: 260px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.total img{    
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    vertical-align:middle;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+.total p2{
+    display:inline-block;
+    margin-left: 45px;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+.botoRepetirComanda{
+    display:inline-block;
+}
+
+.botoRepetirComanda p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #F2C94C;
+    display:inline-block;
+    margin-left: 70px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.botoRepetirComanda p:hover{
+    text-decoration: underline;
+}
+
+.botoRepetirComanda p a{
+    color:black;
+    text-decoration: none;
+}
+
+.botoAltresOpcions{
+    display:inline-block;
+}
+
+.botoAltresOpcions p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #F2C94C;
+    display:inline-block;
+    margin-left: 330px;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.botoAltresOpcions p:hover{
+    text-decoration: underline;
+}
+
+.botoAltresOpcions p a{
+    color:black;
+    text-decoration: none;
+}
