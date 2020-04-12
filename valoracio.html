@@ -12,38 +12,38 @@
     <body>
         <div data-include="components/header"></div>
         <div class="page-title">Valoració</div>
-        
-        <div class="star-valoration">
-            <h2>Restaurant</h2>
-            <div class="star-row-block" id="stars-restaurant">
-                <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-restaurant')">
-                <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-restaurant')">
-                <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-restaurant')">
-                <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-restaurant')">
-                <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-restaurant')">
+        <div class="container">
+            <div class="star-valoration">
+                <h2>Restaurant</h2>
+                <div class="star-row-block" id="stars-restaurant">
+                    <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-restaurant')">
+                    <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-restaurant')">
+                    <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-restaurant')">
+                    <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-restaurant')">
+                    <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-restaurant')">
+                </div>
+            </div>
+
+            <div class="star-valoration">
+                <h2>Entrega</h2>
+                <div class="star-row-block" id="stars-delibery">
+                    <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-delibery')">
+                    <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-delibery')">
+                    <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-delibery')">
+                    <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-delibery')">
+                    <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-delibery')">
+                </div>
+            </div>
+
+            <div class="text-valoration-container">
+                <textarea placeholder="Altres..."></textarea>
             </div>
         </div>
-        
-        <div class="star-valoration">
-            <h2>Entrega</h2>
-            <div class="star-row-block" id="stars-delibery">
-                <img class="star" id="0" src="images/star_filled.svg" onClick="updateStars('0',  'stars-delibery')">
-                <img class="star" id="1" src="images/star_filled.svg" onClick="updateStars('1',  'stars-delibery')">
-                <img class="star" id="2" src="images/star_empty.svg" onClick="updateStars('2',  'stars-delibery')">
-                <img class="star" id="3" src="images/star_empty.svg" onClick="updateStars('3',  'stars-delibery')">
-                <img class="star" id="4" src="images/star_empty.svg" onClick="updateStars('4',  'stars-delibery')">
-            </div>
-        </div>
-        
-        <div class="text-valoration-container">
-            <textarea placeholder="Altres..."></textarea>
-        </div>
-        
         <div class="send-button">
             <a href="/index.html">Envia</a>
         </div>
         
         <div data-include="components/footer"></div>
-        
+        <div data-include="components/footer-log-in"></div>
     </body>
 </html>

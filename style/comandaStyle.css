@@ -11,13 +11,16 @@
     font-family: Comfortaa;
     font-size: 150px;
     margin-left: 110px;
+    margin-bottom: 25px;
     color: #EB5757;
 }
 
 .container {
     background-color: #F2C94C;
     border-radius: 25px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-style: double;
 }
 
