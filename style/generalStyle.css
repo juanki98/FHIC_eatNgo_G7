@@ -1,13 +1,14 @@
 body {
     margin: 0 0;
     background-color: #6fcf97;
-    font-family: Comfortaa;
 }
 
-.page-title {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    text-align: center;
+.titol h1 {
+    margin-top: 6%;
+    font-family: Comfortaa;
     font-size: 100px;
+    padding-right: 10%;
+    text-align: center;
+    margin-left: 10%;
     color: #EB5757;
 }

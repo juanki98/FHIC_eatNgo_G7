@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
 	var elements = document.getElementsByTagName('*'),
 		i;
 	for (i in elements) {

@@ -1,32 +1,27 @@
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
-.titol {
-    float: left;
-    margin-left: 30px;
-    height: 90px;
-}
-.titol h1 {
-    display:inline-block;
-    margin-top: 300px;
-    vertical-align: middle;
-    font-family: Comfortaa;
-    font-size: 120px;
-    margin-left: 25px;
-    color: #EB5757;
+.menul1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
 }
 
 .menul1 img{
     height: 200px;
-    margin-top: 250px;
-    margin-left: 185px;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: middle;
     display:inline-block;
+    text-align: center;
 }
 
 .menul1 p{
     display:inline-block;
-    margin-left: 190px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: Comfortaa;
     font-size: 30px;
+    text-align: center;
 }
 
 .menul1 p:hover{

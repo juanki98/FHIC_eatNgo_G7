@@ -1,41 +1,51 @@
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
-.titol {
-    float: left;
-    margin-left: 30px;
-    height: 90px;
+.titol1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
-.titol img{
-    height: 200px;
-    margin-top: 200px;
-    padding-left: 75px;
-    vertical-align: middle;
+.titol1 h1 {
     display:inline-block;
-}
-
-.titol h1 {
-    display:inline-block;
-    margin-top: 300px;
-    vertical-align: middle;
-    font-family: Comfortaa;
     font-size: 150px;
     padding-right: 75px;
+    font-family: Comfortaa;
     color: #EB5757;
+    vertical-align: middle;
+}
+
+
+.titol1 img{
+    display:inline-block;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.menul1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .menul1 img{
     height: 200px;
-    margin-top: 100px;
-    margin-left: 190px;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: middle;
     display:inline-block;
+    text-align: center;
 }
 
 .menul1 p{
     display:inline-block;
-    margin-left: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: Comfortaa;
     font-size: 30px;
+    text-align: center;
 }
 
 .menul1 p:hover{
@@ -46,20 +56,30 @@
     color:black;
     text-decoration: none;
 }
+.menul2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
 
 .menul2 img{
     height: 200px;
-    margin-top: 100px;
-    margin-left: 190px;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: middle;
     display:inline-block;
+    text-align: center;
 }
 
 .menul2 p{
     display:inline-block;
-    margin-left: 170px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: Comfortaa;
     font-size: 30px;
+    text-align: center;
 }
 
 .menul2 p:hover{
@@ -71,18 +91,21 @@
     text-decoration: none;
 }
 
+.menul3{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
 .menul3 img{
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 350px;
     vertical-align: middle;
     display:inline-block;
     height: 250px;
 }
 
 .menul3 p{
-    margin-left: 435px;
-    margin-top: 0px;
     font-family: Comfortaa;
     font-size: 30px;
 }
