@@ -1,0 +1,15 @@
+body {
+    margin: 0 0;
+    background-color: #6fcf97;
+}
+
+.titol h1 {
+    display:inline-block;
+    margin-top: 10%;
+    font-family: Comfortaa;
+    font-size: 100px;
+    padding-right: 10%;
+    text-align: left;
+    margin-left: 10%;
+    color: #EB5757;
+}
