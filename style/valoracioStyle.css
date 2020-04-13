@@ -24,7 +24,7 @@
 .star-row-block img {
     width: 17.5%;
     height: 100%;
-
+    padding: 1%;
 }
 
 .text-valoration-container {
@@ -47,11 +47,12 @@ textarea{
 
 .send-button {
     height: 120px;
+    width: 350px;
     background-color: #ffc107;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     border-radius: 20px;
     border: solid 2px black;
     text-align: center;
