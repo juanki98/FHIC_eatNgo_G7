@@ -16,39 +16,27 @@
     color: #EB5757;
 }
 
-.containerS {
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    margin: 50px;
-    border-style: double;
-}
-
-.search p1{
+.search input{
     display:inline-block;
     color: #9c9c9c;
+    border-radius: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 50px;
     font-family: Comfortaa;
-    font-size: 65px;
+    font-size: 60px;
+    padding:12px;
+    width: 850px;
+
 }
 
 
 .container1 {
     background-color: #F2C94C;
+    position:relative;
     border-radius: 25px;
     margin: 50px;
     border-style: double;
-}
-
-.establiment1 p1{
-    display:inline-block;
-    color: #EB5757;
-    margin-top: 30px;
-    margin-left: 50px;
-    vertical-align:top;
-    font-family: Comfortaa;
-    font-size: 50px;
 }
 
 .establiment1 img{
@@ -60,68 +48,64 @@
     display:inline-block;
 }
 
+.ubicacio1{
+    position: relative;
+}
+
+.ubicacio1 p1{
+    color: #EB5757;
+    position:absolute;
+    white-space: pre;
+    bottom:10px;
+    left: 50px;
+    right:50px;
+    font-family: Comfortaa;
+    font-size: 55px;
+}
+
 .ubicacio1 img{
-    height: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 500px;
-    vertical-align:bottom;
-    display:inline-block;
+    position:absolute;
+    top:45px;
+    left: 50px;
+    right:500px;
+    height: 45px;
 }
 
-
-
-.container2 {
-    background-color: #F2C94C;
-    border-radius: 25px;
-    margin: 50px;
-    border-style: double;
-}
-
-
-.establiment p1{
-    display:inline-block;
+.ubicacio1 p2{
+    position:absolute;
     color: #EB5757;
-    margin-left: 150px;
+    top:55px;
+    left: 140px;
+    right:500px;
+    height: 45px;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 35px;
 }
 
-.establiment img{
-
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 50px;
-    vertical-align:middle;
-    display:inline-block;
+.star1{
+    position: relative;
 }
 
-.container3 {
-    background-color: #F2C94C;
-    border-radius: 25px;
-    margin: 50px;
-    border-style: double;
+.star1 img{
+    position:absolute;
+    top:45px;
+    right:40px;
+    left:400px;
+    height: 45px;
 }
 
-
-.establiment p1{
-    display:inline-block;
-    color: #EB5757;
-    margin-left: 150px;
-    font-family: Comfortaa;
-    font-size: 30px;
+.star2{
+    position: relative;
 }
 
-.establiment img{
-
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 50px;
-    vertical-align:middle;
-    display:inline-block;
+.star2 img{
+    position:absolute;
+    top:45px;
+    right:30px;
+    left:320px;
+    height: 45px;
 }
+
 
 .botoRepetirComanda{
     display:inline-block;
