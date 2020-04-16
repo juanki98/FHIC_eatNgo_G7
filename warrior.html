@@ -9,9 +9,6 @@
     </head>
 
     <body>
-        <header>
-            <div data-include="components/header"></div>
-        </header>
 
         <div class="titol">
             <h1>Waste Warrior</h1>
@@ -163,9 +160,15 @@
             </tbody>
             </table>
         </div>
-        <div class="opacity">OPACITY</div>
-        <footer>
+        <div class="opacity"> </div>
+
+        <div data-include="components/header"></div>
+
+        <ion-footer *ngIf="keyboardCheck()">
             <div data-include="components/footer-log-in"></div>
-        </footer>
+        </ion-footer>
+
+
+
     </body>
 </html>
