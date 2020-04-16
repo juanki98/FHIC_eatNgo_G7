@@ -53,8 +53,9 @@
     position: relative;
 }
 
-.ubicacio1 p1{
+.ubicacio1 p1 a{
     color: #EB5757;
+    text-decoration: none;
     position:absolute;
     white-space: pre;
     bottom:10px;
