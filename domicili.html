@@ -164,8 +164,10 @@
 
         <div data-include="components/header"></div>
 
+        <ion-footer *ngIf="keyboardCheck()">
+            <div data-include="components/footer-log-in"></div>
+        </ion-footer>
 
-        <div data-include="components/footer-log-in"></div>
 
 
     </body>
