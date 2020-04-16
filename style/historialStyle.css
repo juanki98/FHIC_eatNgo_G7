@@ -1,0 +1,55 @@
+.container {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-style: double;
+}
+
+.comanda {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 30px 50px;
+    font-family: Comfortaa;
+}
+
+.comanda img {
+    margin: auto;
+    width: 120px;
+}
+
+.historial-info {
+    margin: auto;
+    text-align: center;
+}
+
+.historial-info h5 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #EB5757;
+}
+
+.historial-info date {
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+
+.veure-comanda-button {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+    border: 1px solid black;
+}
+
+.veure-comanda-button a {
+    color: black;
+    text-decoration: none;
+}

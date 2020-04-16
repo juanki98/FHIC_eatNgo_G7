@@ -1,0 +1,35 @@
+.menul1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.menul1 img{
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    vertical-align: middle;
+    display:inline-block;
+    text-align: center;
+}
+
+.menul1 p{
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Comfortaa;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menul1 p:hover{
+    text-decoration: underline;
+}
+
+.menul1 a{
+    color:black;
+    text-decoration: none;
+}
+

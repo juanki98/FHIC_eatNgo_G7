@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Title-->
+        <title>Eat&Go</title>
+        <script src="scripts/include.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
+        <link rel="stylesheet" type="text/css" href="style/reclamarStyle.css">
+    </head>
+    
+    <body>
+        <div data-include="components/header"></div>
+        <div class="titol">
+
+            <h1>Reclamació</h1>
+        </div>
+        <div class="container">
+            <div class="motiu">
+                <p1><b>Motiu:</b></p1>
+                <select name="OS">
+                   <option selected value="Tria una opció"> <b>Tria una opció</b></option>
+                       <optgroup label="Repartidor"> 
+                       <option value="1">Impuntualitat</option> 
+                       <option value="2">Mal servei</option> 
+                       <option value="3">Altres</option> 
+                   </optgroup> 
+                   <optgroup label="Establiment"> 
+                       <option value="4">Menjar en mal estat</option> 
+                       <option value="5">Comanda errònia</option> 
+                       <option value="6">Altres</option> 
+                   </optgroup> 
+                </select>
+            </div>
+            <div class="explicacio">
+                <p1><b>Descripció:</b></p1>
+            </div>
+            <div class="text-reclamacio-container">
+                <textarea placeholder="Explica aquí els motius de la reclamació"></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"><b>Demanar devolució dels diners</b></label><br>
+                
+            </div>    
+        </div>
+        
+        <div class="enviar">
+            <p><a href="index.html">Enviar</a></p>
+        </div>
+        <div data-include="components/footer"></div>
+    </body>
+</html>

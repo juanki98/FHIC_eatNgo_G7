@@ -8,72 +8,36 @@
     display:inline-block;
     margin-top: 300px;
     vertical-align: middle;
+    text-align: center;
     font-family: Comfortaa;
-    font-size: 100px;
+    font-size: 150px;
     padding-right: 80px;
     margin-left: 100px;
     color: #EB5757;
 }
 
-.botons{
-    margin-top: 300px;
-}
-.botoValorar{
+.menul1 img{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 190px;
+    vertical-align: middle;
     display:inline-block;
 }
 
-.botoValorar p{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: white;
+.menul1 p{
     display:inline-block;
-    margin-left: 95px;
+    margin-left: 228px;
+    margin-right: 30px;
+    
     font-family: Comfortaa;
-    font-size: 50px;
-    text-align: center;
-    border-radius: 25px;
-    border: 3px solid #333;
-    padding-top: 25px;
-    width: 250px;
-    height: 80px;
+    font-size: 30px;
 }
 
-.botoValorar p:hover{
+.menul1 p:hover{
     text-decoration: underline;
 }
 
-.botoValorar p a{
-    color:black;
-    text-decoration: none;
-}
-
-.botoReclamar{
-    display:inline-block;
-}
-
-.botoReclamar p{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: white;
-    display:inline-block;
-    margin-left: 230px;
-    font-family: Comfortaa;
-    font-size: 50px;
-    text-align: center;
-    border-radius: 25px;
-    border: 3px solid #333;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 250px;
-    height: 80px;
-}
-
-.botoReclamar p:hover{
-    text-decoration: underline;
-}
-
-.botoReclamar p a{
+.menul1 a{
     color:black;
     text-decoration: none;
 }

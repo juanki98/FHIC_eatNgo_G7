@@ -5,13 +5,53 @@
         <title>Eat n' Go - Perfil</title>
         <script src="scripts/include.js"></script>
         <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
+        <link rel="stylesheet" type="text/css" href="style/perfilStyle.css">
     </head>
     
     <body>
         <div data-include="components/header"></div>
-        <div class="Historial-commandes">
-            <p>Perfil</p>
+        <div class="titol">
+            <h1>Perfil</h1>
         </div>
         
+        <div class="container">
+            <img src="images/profile.png" class="foto"> 
+            <div class="table1">
+                <table class="table1"> 
+                    <tr>
+                        <td><p class="campsT">Nom:</p> </td>
+                        <td><b>Eulàlia</b></td>
+                    <tr>
+                        <td><p class="campsT">Ubicació:</p></td>
+                        <td><b>Barcelona</b></td>
+
+                    </tr>
+                    <tr>
+                        <td><p class="campsT">Correu:</p></td>
+                        <td><b>eudv@gmail.com</b></td>
+                    </tr>
+                 </table>
+            </div>
+        </div>
+        
+        <div class="outer">
+                <a href="historialComanda.html"><figure class="circle">
+                      <img src="images/paper.png" alt="Tres papers" class="icona">
+                      <figcaption><b>Historial de comandes</b></figcaption>
+                </figure></a>
+            
+                <a href="noImplementat.html"><figure class="circle">
+                      <img src="images/cards.png" alt="Targetes de credit" class="icona">
+                      <figcaption><b>Mètodes de pagament</b></figcaption>
+                </figure></a>
+                
+            </div>
+        <div class="outer">
+                <a href="noImplementat.html"><figure class="circle">
+                      <img src="images/hand.png" alt="Mans" class="icona">
+                      <figcaption><b>Editar perfil</b></figcaption>
+                </figure></a>
+        </div>
+        <div data-include="components/footer"></div>
     </body>
 </html>
