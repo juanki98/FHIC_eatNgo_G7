@@ -3,74 +3,94 @@
         top: 0;
         position: fixed;
         width: 100%;
+        background-color: #FFFFFF;
     }
     
     body {
-        padding-top: 90px;
+        padding-top: 150px;
     }
     
-     nav {
+    header a {
+        text-decoration: none;
+    }
+    
+    nav {
         margin: 0 0;
-        background-color: #FFFFFF;
-        min-height: 90px;
+        height: 150px;;
         font-family: Comfortaa;
-        font-size: 15px;
-        display: block;
+        display: grid; 
+        grid-template-columns: 1fr 2fr 1fr;
         overflow: hidden;
     }
     
     #header-left-content {
-        float: left;
-        margin-left: 30px;
-        height: 90px;
+        height: 100%;
+        display: flex;
+        align-items: center; /* vertical */
+        padding-left: 20%;
     }
     
     #header-left-content img{
-        height: 90px;
-        display:inline-block;
-    }
-    
-    #header-left-content h1 {
-        display:inline-block;
+        height: 70px;
         vertical-align: middle;
-        margin: auto;
-        margin-top: 0;
-        height: 100px;
-        padding-left: 10px;
-        color: #EB5757;
     }
     
-    #header-left-content h1:hover{
+    
+    #header-center-content {
+        height: 100%;
+        display: flex;
+        align-items: center; /* vertical */
+        justify-content: center; /* horizontal */
+    }
+    
+    #header-center-content img{
+        height: 90px;
+        margin: auto;
+        vertical-align: middle;
+    }
+    
+    #header-center-content h7 {
+        vertical-align: middle;
+        color: #EB5757;
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    
+    #header-center-content h1:hover{
         text-decoration: underline;
     }
-
-    #header-left-content a{
-        color: #EB5757;
-        text-decoration: none;
-    }
-
+    
     #header-right-content {
-        float: right;
-        margin-right: 30px;
-        padding: 0;
-        margin: 0;
-        list-style: none;
+        height: 100%;
+        display: flex;
+        align-items: center; /* vertical */
+        justify-content: center; /* horizontal */
     }
     
+    #header-right-content a img {
+        height: 120px;
+    }
     
-    nav a {
+    header #dropdown-menu {
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+        display: none;
+    }
+    
+    header #dropdown-menu a {
+        font-family: Comfortaa;
         display:block;
-        padding:0 10px;	
-        color:black;
-        font-size:20px;
-        text-decoration:none;
+        font-size: 50px;
+        color: black;
+        margin: 0px;
+        line-height: 150px;
+        padding-left: 50px;
     }
     
-    nav ul li {
-        display:inline-block;
-        line-height: 90px;
-        float:right;
-	}
+    header #dropdown-menu a:hover {
+        color: white;
+        background-color: #333333;
+    }
     
     nav a:hover {
         background-color: #e5e5e5;
@@ -80,19 +100,28 @@
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 
-
 <header> 
     <nav>
         <div id="header-left-content">
-            <a href="index.html"><img src="images/Logo.png">
-            <h1>Eat&Go</h1></a>
+            <img id="nav-menu-button"src="images/menu-hamb.svg" onclick="displayMenu()">
         </div>
-
-        <ul id="header-right-content">
-            <li><a href="colabs.html">Col·laboradors</a></li>
-            <li><a href="reservar.html">Reservar taula</a></li>
-            <li><a href="warrior.html">Waste Warrior</a></li>
-            <li><a href="domicili.html">Menjar a domicili</a></li>
-        </ul>
+        
+        <div id="header-center-content">
+            <a href="index.html"><img src="images/Logo.png">
+            <h7>Eat&Go</h7></a>
+        </div>
+        
+        <div id="header-right-content">
+            <a href="perfil.html">
+                <img src="images/profile.png"> 
+            </a>
+        </div>
     </nav>
+    
+    <div id="dropdown-menu">
+        <a href="domicili.html">Menjar a domicili</a>
+        <a href="warrior.html">Waste Warrior</a>
+        <a href="reservar.html">Reservar taula</a>
+        <a href="colabs.html">Col·laboradors</a>
+    </div>
 </header>
