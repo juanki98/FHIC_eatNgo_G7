@@ -1,72 +1,95 @@
 .container {
     background-color: #F2C94C;
     border-radius: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
     border-style: double;
     font-family: Comfortaa;
+    align-content: center;
 }
 
 .motiu {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 40px  auto;
     padding: 20px;
     width: 80%;
+    background-color: #FFF;
+    border: solid 2px black;
 }
 
 .motiu p1{
     display:inline-block;
-    font-size: 45px;
+    font-size: 60px;
 }
 
-.motiu select {
-    margin-left: 30px;
-    font-family: Comfortaa;
+.select-wrapper {
+    height: 52px;
+    margin: 0px  auto;
+    padding: 20px 0;
+    width: 100%;
+    background-image: url("/images/flecha-hacia-abajo.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: 90px;
+    background-position: 95%;
+    
+}
+
+
+select {
+    width: 100%;
     font-size: 40px;
+    font-family: Comfortaa;
+    background-color: transparent;
+    line-height: 50px;
+    border:0px;
+    outline:0px;
+    /* Per fer fora la fletxa */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+     -o-appearance: none;
+		appearance: none;
 }
 
-.explicacio {
+.text-reclamacio-container p1{
     width: 80%;
-    margin: 40px  auto 0px auto;
-    padding: 20px;
-    padding: 20px;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .text-reclamacio-container {
     background-color: #FFF;
     width: 80%;
-    margin: 0px  auto;
+    margin: 40px  auto;
     padding: 20px 20px;
-    height: 450px;
+    height: 500px;
     border: solid 2px black;
 }
 
 textarea{
-    margin: auto;
+    margin: 0px auto;
+    margin-top: 10px;
     width: 100%;
-    height: 100%;
+    height: 75%;
     border: none;
     font-size: 40px;
     font-family: Comfortaa;
 }
 
 .checkbox{
+    background-color: #FFF;
+     border: solid 2px black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center; /* vertical */
-    margin: 0px  auto;
+    margin: 40px  auto;
     padding: 20px;
     width: 80%;
 }
 
 .checkbox p{
     font-family: Comfortaa;
-    font-size: 45px;
-    padding-top: 10px;
+    font-size: 60px;
     vertical-align: top;
 }
 
@@ -74,7 +97,6 @@ textarea{
 .enviar{
     margin-left: 100px;
 }
-
 .enviar p{
     margin-top: 50px;
     margin-bottom: 30px;
