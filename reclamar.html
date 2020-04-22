@@ -4,20 +4,18 @@
         <!--Title-->
         <title>Eat&Go</title>
         <script src="scripts/include.js"></script>
-        <script src="scripts/menuDropdown.js"></script>s
+        <script src="scripts/menuDropdown.js"></script>
         <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
         <link rel="stylesheet" type="text/css" href="style/reclamarStyle.css">
     </head>
     
     <body>
         <div data-include="components/header"></div>
-        <div class="titol">
-
-            <h1>Reclamació</h1>
-        </div>
+        <div class="titol"><h1>Reclamació</h1></div>
+        
         <div class="container">
             <div class="motiu">
-                <p1><b>Motiu:</b></p1>
+                <p1><b>Motiu</b></p1>
                 <select name="OS">
                    <option selected value="Tria una opció"> <b>Tria una opció</b></option>
                        <optgroup label="Repartidor"> 
@@ -33,15 +31,18 @@
                 </select>
             </div>
             <div class="explicacio">
-                <p1><b>Descripció:</b></p1>
+                <p1><b>Descripció</b></p1>
             </div>
             <div class="text-reclamacio-container">
                 <textarea placeholder="Explica aquí els motius de la reclamació"></textarea>
             </div>
+            
             <div class="checkbox">
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                <label for="vehicle1"><b>Demanar devolució dels diners</b></label><br>
-                
+                <p><b>Reembossar</b></p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
             </div>    
         </div>
         
