@@ -16,28 +16,44 @@
     color: #EB5757;
 }
 
-.menul1 img{
+.menu-row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: top; /* vertical */
+}
+
+.menu-row img{
     height: 200px;
-    margin-top: 100px;
-    margin-left: 190px;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: middle;
     display:inline-block;
+    text-align: center;
 }
 
-.menul1 p{
+.option {
+    width: 40%;
+}
+
+
+.menu-row p{
     display:inline-block;
-    margin-left: 228px;
-    margin-right: 30px;
-    
     font-family: Comfortaa;
     font-size: 30px;
+    text-align: center;
 }
 
-.menul1 p:hover{
+.menu-row p:hover{
     text-decoration: underline;
 }
 
-.menul1 a{
+.menu-row a{
     color:black;
     text-decoration: none;
 }
