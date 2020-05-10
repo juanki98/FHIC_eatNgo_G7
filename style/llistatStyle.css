@@ -1,0 +1,133 @@
+.container {
+    background-color: #F2C94C;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: double;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Comfortaa;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: Comfortaa;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.column-center {
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+
+.column-left{
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content:flex-end; /* horizontal */
+    color: #EB5757;
+}
+
+.column-right{
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content:flex-start; /* horizontal */
+}
+
+.column-center img{
+    height: 100px;
+}
+
+.column-center a{
+    display:inline-block;
+    font-family: Comfortaa;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    width: 70%;
+    text-decoration: none;
+}
+
+hr {
+    height: 5px; 
+    border: none; 
+    color: #333; 
+    background-color: #333; 
+    width: 70%;
+}
+
+
+.botons {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.boto-center{
+    margin-bottom: 17%;
+    display: flex;
+    text-align: center;
+    align-items: center; /* vertical */
+    justify-content:center; /* horizontal */
+}
+
+.boto a{
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content:center; /* horizontal */
+    font-family: Comfortaa;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid #333;
+    padding: 20px;
+    margin-left: 300px;
+    height: 75px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.boto p:hover{
+    text-decoration: underline;
+}
+
+.bg-yellow {
+    background-color: #F2C94C;
+    color:black;
+}
+.bg-dark {
+    color: white;
+    background-color: #333333;
+}
+.bg-white {
+    background-color: white;
+    color:black;
+}
+
+.bg-white:hover{
+    color: white;
+    background-color: #333333;
+}
+.bg-dark:hover {
+    background-color: white;
+    color:black;
+}
+
