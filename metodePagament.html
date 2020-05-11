@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Title-->
+        <title>Eat&Go</title>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/include.js"></script>
+        <script src="scripts/menuDropdown.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
+        <link rel="stylesheet" type="text/css" href="style/metodePagamentStyle.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        
+    </head>
+    
+    <body>
+        <div class="container">
+        <h1>Mètode de Pagament</h1>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<div class="card-body p-5">
+
+<ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+	<li class="nav-item">
+		<a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+		<i class="fa fa-credit-card"></i> Credit Card</a></li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+		<i class="fab fa-paypal"></i>  Paypal</a></li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+		<i class="fa fa-university"></i>  Bank Transfer</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane fade show active" id="nav-tab-card">
+	<form role="form">
+	<div class="form-group">
+		<label for="username">Full name (on the card)</label>
+		<input type="text" class="form-control" name="username" placeholder="" required="">
+	</div> <!-- form-group.// -->
+
+	<div class="form-group">
+		<label for="cardNumber">Card number</label>
+		<div class="input-group">
+			<input type="text" class="form-control" name="cardNumber" placeholder="">
+			<div class="input-group-append">
+				<span class="input-group-text text-muted">
+					<i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
+					<i class="fab fa-cc-mastercard"></i> 
+				</span>
+			</div>
+		</div>
+	</div> <!-- form-group.// -->
+
+	<div class="row">
+	    <div class="col-sm-8">
+	        <div class="form-group">
+	            <label><span class="hidden-xs">Expiration</span> </label>
+	        	<div class="input-group">
+	        		<input type="number" class="form-control" placeholder="MM" name="">
+		            <input type="number" class="form-control" placeholder="YY" name="">
+	        	</div>
+	        </div>
+	    </div>
+	    <div class="col-sm-4">
+	        <div class="form-group">
+	            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+	            <input type="number" class="form-control" required="">
+	        </div> <!-- form-group.// -->
+	    </div>
+	</div> <!-- row.// -->
+	<a href="perfil.html"><button class="subscribe btn btn-primary btn-block" type="button" >Confirmar </button></a>
+	</form>
+</div> <!-- tab-pane.// -->
+<div class="tab-pane fade" id="nav-tab-paypal">
+<p>Paypal is easiest way to pay online</p>
+<p>
+<button type="button" class="btn btn-primary"> <i class="fab fa-paypal"></i> Log in my Paypal </button>
+</p>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+<div class="tab-pane fade" id="nav-tab-bank">
+<p>Bank accaunt details</p>
+<dl class="param">
+  <dt>BANK: </dt>
+  <dd> THE WORLD BANK</dd>
+</dl>
+<dl class="param">
+  <dt>Accaunt number: </dt>
+  <dd> 12345678912345</dd>
+</dl>
+<dl class="param">
+  <dt>IBAN: </dt>
+  <dd> 123456789</dd>
+</dl>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div> <!-- tab-pane.// -->
+</div> <!-- tab-content .// -->
+
+</div> <!-- card-body.// -->
+
+<!--
+    <div class="checkout-panel">
+    <div class="panel-body">
+    <h2 class="title">Mètode de pagament</h2>
+ 
+    <div class="payment-method">
+      <label for="card" class="method card">
+        <div class="card-logos">
+          <img src="images/visa_logo.png"/>
+          <img src="images/mastercard_logo.png"/>
+        </div>
+ 
+        <div class="radio-input">
+          <input id="card" type="radio" name="payment">
+          Afegir tarjeta  de crèdit
+        </div>
+      </label>
+ 
+      <label for="paypal" class="method paypal">
+        <img src="images/paypal_logo.png"/>
+        <div class="radio-input">
+          <input id="paypal" type="radio" name="payment">
+          Afegir Paypal
+        </div>
+      </label>
+    </div>
+ 
+    <div class="input-fields">
+      <div class="column-1">
+        <label for="cardholder">Cardholder's Name</label>
+        <input type="text" id="cardholder" />
+ 
+        <div class="small-inputs">
+          <div>
+            <label for="date">Valid thru</label>
+            <input type="text" id="date" placeholder="MM / YY" />
+          </div>
+ 
+          <div>
+            <label for="verification">CVV / CVC *</label>
+            <input type="password" id="verification"/>
+          </div>
+        </div>
+ 
+      </div>
+      <div class="column-2">
+        <label for="cardnumber">Card Number</label>
+        <input type="password" id="cardnumber"/>
+ 
+        <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="panel-footer">
+    <button class="btn back-btn">Discard</button>
+    <button class="btn next-btn">Confirmar</button>
+  </div>
+</div>//-->
+            </div>
+    </body>
+</html>
