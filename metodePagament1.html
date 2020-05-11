@@ -3,10 +3,11 @@
     <head>
         <!--Title-->
         <title>Eat&Go</title>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="scripts/include.js"></script>
         <script src="scripts/menuDropdown.js"></script>
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <link rel="stylesheet" type="text/css" href="style/generalStyle.css">
         <link rel="stylesheet" type="text/css" href="style/metodePagamentStyle.css">
         
@@ -23,10 +24,10 @@
 
 <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
 	<li class="nav-item">
-		<a class="nav-link active" data-toggle="pill" href="metodePagament.html">
+		<a class="nav-link" data-toggle="pill" href="metodePagament.html">
 		<i class="fa fa-credit-card"></i> Credit Card</a></li>
 	<li class="nav-item">
-		<a class="nav-link" data-toggle="pill" href="metodePagament1.html">
+		<a class="nav-link active" data-toggle="pill" href="metodePagament1.html">
 		<i class="fab fa-paypal"></i>  Paypal</a></li>
 	<li class="nav-item">
 		<a class="nav-link" data-toggle="pill" href="metodePagament2.html">
@@ -34,7 +35,7 @@
 </ul>
 
 <div class="tab-content">
-<div class="tab-pane show active" id="nav-tab-card">
+<div class="tab-pane fade" id="nav-tab-card">
 	<form role="form">
 	<div class="form-group">
 		<label for="username">Full name (on the card)</label>
@@ -74,7 +75,7 @@
 	<a href="perfil.html"><button class="subscribe btn btn-primary btn-block" type="button" >Confirmar </button></a>
 	</form>
 </div> <!-- tab-pane.// -->
-<div class="tab-pane fade" id="nav-tab-paypal">
+<div class="tab-pane show active" id="nav-tab-paypal">
 <p>Paypal is easiest way to pay online</p>
 <p>
 <button type="button" class="btn btn-primary"> <i class="fab fa-paypal"></i> Log in my Paypal </button>
