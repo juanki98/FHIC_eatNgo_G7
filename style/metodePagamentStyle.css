@@ -1,17 +1,42 @@
 
-.container {
+.titol1 h1 {
+    margin-top: 6%;
+    font-family: Comfortaa;
+    font-size: 100px;
+    padding-right: 10%;
+    text-align: center;
+    margin-left: 10%;
+    color: #EB5757;
+}
+
+.container-fluid {
     background-color: #F2C94C;
     vertical-align: middle;
     border-radius: 25px;
     margin-top: 10%;
+    margin-bottom: 10%;
+    resize: both;
+    font-family: Comfortaa;
+    line-height: 60px;
+    max-height: auto;
+    font-size: 24px;
     border-style: double;
-    font-family: Comfortaa, ;
     align-content: center;
 }
 
+.input-group {
+    height: 60px;
+}
 
+.form-control {
+    height: 60px;
+}
 
-
+.btn {
+    margin-top: 10%;
+    height: 60px;
+    font-size: 24px;
+}
 
 
 
